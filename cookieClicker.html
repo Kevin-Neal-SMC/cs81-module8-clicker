@@ -14,3 +14,36 @@
 <p id="message" style="font-size: 1.3rem; margin-top: 20px;">Begin clicking the cookie</p>
 
 <button id="cookieButton" style="font-size: 3rem; padding: 20px; cursor: pointer;">🍪</button>
+
+<script>
+    const counter = document.getElementById('counter');
+    const message = document.getElementById('message');
+    const cookieButton = document.getElementById('cookieButton');
+
+    let clicks = 0;
+
+    cookieButton.addEventListener('click', function () {
+        clicks++;
+        counter.textContent = clicks;
+
+        if (clicks === 10) {
+            message.textContent = ;
+            
+        }
+        else if (clicks === 25) {
+            message.textContent = ;
+            
+        }
+        else if (clicks === 50) {
+            message.textContent = ;
+            
+        }
+        else if (clicks === 100) {
+            message.textContent = ;
+            
+        }
+    });
+</script>
+
+</body>
+</html>
